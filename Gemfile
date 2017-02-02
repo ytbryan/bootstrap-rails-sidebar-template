@@ -7,13 +7,13 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 gem 'sqlite3'
 gem 'foreman'
-gem 'unicorn'
+gem 'unicorn', '~> 4.8.3' # This change was made via Snyk to fix a vulnerability
 gem "font-awesome-rails"
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 
 gem 'guard'
-gem 'rename'
+gem 'rename', '~> 1.0.2' # This change was made via Snyk to fix a vulnerability
 gem 'mina'
 # gem 'upmin'
 
@@ -25,18 +25,18 @@ gem 'mina'
 
 
 #alternate servers
-gem 'thin'
+gem 'thin', '~> 1.6.3' # This change was made via Snyk to fix a vulnerability
 # gem 'puma'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '~> 4.2.7.1' # This change was made via Snyk to fix a vulnerability
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '~> 2.7.2' # This change was made via Snyk to fix a vulnerability
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -45,9 +45,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '~> 2.5.3' # This change was made via Snyk to fix a vulnerability
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.2.5' # This change was made via Snyk to fix a vulnerability
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
